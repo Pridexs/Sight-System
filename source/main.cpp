@@ -199,7 +199,6 @@ int main()
 
 			sf::Vertex ray[2] = {
 				sf::Vertex(sf::Vector2f(mouseCoordinates)),
-				// Check why i need to multiply by a high number
 				sf::Vertex(sf::Vector2f(mouseCoordinates.x + (dx*1000), mouseCoordinates.y + (dy*1000)))
 			};
 
